@@ -164,6 +164,11 @@ dependencies:
   wakelock_plus: ^1.8.2
 
 dependency_overrides:
+  # TODO: לחזור לגרסה הרשמית אחרי מיזוג ושחרור brendan-duncan/archive#428–#438.
+  archive:
+    git:
+      url: https://github.com/Otzaria/archive
+      ref: 170d7f9f00548581d373e02012bb69f350e89172 # codex/archive-integration
   # TODO: לחזור ל-pub.dev אחרי מיזוג ושחרור dart-lang/core#1042–#1045.
   # ענף characters-integrated כולל את כל התיקונים; מוצמד לקומיט שנבדק.
   characters:
